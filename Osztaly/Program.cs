@@ -35,12 +35,14 @@ namespace Osztaly
             //Kutyak dog3 = new Kutyak();
 
             fs.Close();
+            dogs[1].SetName("Zsebi");
 
             foreach (Kutyak dog in dogs)
             {
                 Console.WriteLine($"{dog.GetFajta()}, {dog.GetName()}, {dog.GetAge()}");
 
             }
+
 
           
 
